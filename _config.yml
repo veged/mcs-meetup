@@ -1,0 +1,26 @@
+safe: true
+permalink: /:title.html
+exclude: [ assets, node_modules ]
+markdown: kramdown
+
+default_theme: yandex
+default_width: 792
+default_lang: ru
+default_body_class: list
+
+kramdown:
+  enable_coderay: false
+
+presentation:
+    title: "БЭМ: Разработка под несколько платформ"
+    service: БЭМ
+    nda: false
+
+author:
+    name: Сергей Бережной
+    position: "руководитель отдела<br/>разработки поисковых интерфейсов"
+    company:
+        name: Яндекс
+        url:  http://yandex.ru/
+
+progress: false
